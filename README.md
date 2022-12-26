@@ -6,10 +6,10 @@ Requires AutoHotKey v2.0
 
 ### Setup:
 * Install AutoHotKey [here](https://www.autohotkey.com/)
-* Download `Apple Keyboard.ahk`
+* Download project zip and unzip folder
 * Locate the **Startup items** folder by pressing <kbd>Win + R</kbd> and entering `shell:startup`
-* Copy the `Apple Keyboard.ahk` to **Startup items** folder
-* Restart to activate script, or right click `Apple Keyboard.ahk` and click `run` to start using right away
+* Copy `apple_keyboard_script.ahk` from project folder to **Startup items** folder
+* Restart to activate script, or right click `apple_keyboard_script.ahk` and click `run` to start using it right away
 
 ## Functionality: Use <kbd>F19</kbd> to toggle function keys on/off (on by default)
 
