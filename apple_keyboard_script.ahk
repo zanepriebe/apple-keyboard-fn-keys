@@ -6,44 +6,56 @@ function := true
 
 F19::global function := !function
 
-F7::
+$F7::
 {
     if function {
         Send "{Media_Prev}"
+    } else {
+        Send "{F7}"
     }
 }
 
-F8::
+$F8::
 {
     if function {
         Send "{Media_Play_Pause}"
+    } else {
+        Send "{F8}"
     }
 }
 
-F9::
+$F9::
 {
     if function {
         Send "{Media_Next}"
+    } else {
+        Send "{F9}"
     }
 }
 
-F10::
+$F10::
 {
     if function {
         Send "{Volume_Mute}"
+    } else {
+        Send "{F10}"
     }
 }
 
-F11::
+$F11::
 {
     if function {
         Send "{Volume_Down}"
+    } else {
+        Send "{F11}"
     }
 }
 
-F12::
+$F12::
 {
     if function {
         Send "{Volume_Up}"
+    } else {
+        Send "{F12}"
     }
 }
